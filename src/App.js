@@ -1,17 +1,20 @@
-import React from 'react';
 
-import Careers from './Components/Careers/Careers';
-import Footer from './Components/Footer/Footer';
-import NavBar from './Components/Navbar/Navbar';
+import AboutusPage from './Aboutus/Aboutus';
+import './App.css';
+// import WebDevelopmentPage from './Webdevelopment/webdevpage';
+// import Productcard from './Productsearch/Productcard';
 
-const App = () => {
-    return (
-        <div>
-            <NavBar/>
-            <Careers />
-            <Footer />
-        </div>
-    );
-};
+function App() {
+  return (
+    <div>
+
+      {/* <Productcard/> */}
+
+      {/* <WebDevelopmentPage/> */}
+      <AboutusPage/>
+
+    </div>
+  );
+}
 
 export default App;
