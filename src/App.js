@@ -1,17 +1,15 @@
-import React from 'react';
+import './App.css';
+import Contact from './contact/contactus';
+// import Aside from './aside component/Aside';
 
-import Careers from './Components/Careers/Careers';
-import Footer from './Components/Footer/Footer';
-import NavBar from './Components/Navbar/Navbar';
 
-const App = () => {
-    return (
-        <div>
-            <NavBar/>
-            <Careers />
-            <Footer />
-        </div>
-    );
-};
+function App() {
+  return (
+    <div>
+      {/* <Aside/> */}
+      <Contact/>
+    </div>
+  );
+}
 
 export default App;
